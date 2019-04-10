@@ -4,8 +4,8 @@ This is a sample script detailing a bulk deletion of users in an environment.
 
 ## Required Parameters
 
-* `ENVIRONMENT_ID`: The ID of the environment in which the users you wish to delete are stored.
-* `CLIENT_ID`: The ID of an app configured with the ability to delete users (see [App Configuration](#app-configuration)). The ID of your app can be found in the Applications section under the Connection tab in the admin console.
+* `ENVIRONMENT_ID`: The ID of the environment in which the users you wish to delete are stored. It should also be the same environment as the client app.
+* `CLIENT_ID`: The ID of an app configured with the ability to delete users (see [App Configuration](#app-configuration)). The ID of your app can be found in the Applications section under the Connection tab in the admin console. 
 * `CLIENT_SECRET`: The corresponding secret of an app configured with the ability to delete users (see [App Configuration](#app-configuration)). To find your app's secret, navigate to your app in the Applications section under the Connection tab in the admin console. The client secret can be found under the Configuration tab of your app.
 
 ## Optional Parameters
