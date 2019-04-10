@@ -59,7 +59,7 @@ def build_query_url():
 # Request a token with client credentials
 def get_token():
     global token, BEARER_HEADER
-    token_url = "https://auth.pingone.com/{}/as/token?grant_type=client_credentials&scope=p1:read:env:user p1:delete:env:user".format(ENVIRONMENT_ID)
+    token_url = "https://auth.pingone.com/{}/as/token?grant_type=client_credentials".format(ENVIRONMENT_ID)
 
     try:
         r = requests.post(
