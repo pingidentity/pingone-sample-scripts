@@ -1,0 +1,7 @@
+# idea content
+.idea
+*.iml
+
+# temporary directories
+target/
+.DS_Store
