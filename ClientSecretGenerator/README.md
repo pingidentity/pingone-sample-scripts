@@ -27,7 +27,7 @@ The generated JSON output includes the client_secret (JWT) and the payload for y
 
     {
         "client_secret": "the-generated-jwt",
-        "content": {
+        "payload": {
             "sub": "your-client-id",
             "aud": "https://appleid.apple.com",
             "iss": "your-issuer",
