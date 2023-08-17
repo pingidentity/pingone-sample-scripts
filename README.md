@@ -1,3 +1,5 @@
+# Deprecated
+
 # About
 
 This repository contains scripts and tools, made by developers for developers!
